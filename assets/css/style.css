@@ -662,7 +662,7 @@ section {
 
 .icon-boxes .description {
   font-size: var(--bs-body-font-size);
-  line-height: 20px;
+  line-height: 22px;
   margin-bottom: 10;
   color: #000000;
 }
