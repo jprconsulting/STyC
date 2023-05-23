@@ -57,8 +57,13 @@ h6 {
   color: #fff;
   line-height: 0;
 }
-
+.back-to-top:hover i {
+  font-size: 28px;
+  color:#582A7C;
+  line-height: 0;
+}
 .back-to-top:hover {
+  
   background: #ffffff;
   color: #582A7C;
 }
