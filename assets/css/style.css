@@ -45,7 +45,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #0880e8;
+  background: #582A7C;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -59,8 +59,8 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #2194f7;
-  color: #fff;
+  background: #ffffff;
+  color: #582A7C;
 }
 
 .back-to-top.active {
@@ -485,12 +485,12 @@ h6 {
   position: relative;
   margin-bottom: -90px;
   z-index: 99;
-  transition: 0.3s;
+  transition: 0.35s;
 }
 
 #hero:before {
   content: "";
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.75);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -628,7 +628,7 @@ section {
   padding: 0px 17px;
   position: relative;
   overflow: hidden;
-  background: rgba(255, 255, 255, 0.52);
+  background: rgba(255, 255, 255, 0.5);
   box-shadow: 5px 5px 10px  rgba(88, 42, 124, 1);
   transition: all 0.3s ease-in-out;
   border: rgba(88, 42, 124, 0.35);
