@@ -197,7 +197,7 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+ 
 }
 
 .header-inner-pages {
@@ -242,7 +242,7 @@ h6 {
   align-items: center;
   justify-content: space-between;
   padding: 0 3px;
-  font-size: 18px;
+  font-size: 16px;
   color: rgba(255, 255, 255, 0.7);
   white-space: nowrap;
   transition: 0.3s;
@@ -305,7 +305,7 @@ h6 {
 
 .navbar .dropdown ul a {
   padding: 10px 20px;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 500;
   text-transform: none;
   color: #032e54;
@@ -651,7 +651,7 @@ section {
 }
 
 .icon-boxes .title a {
-  color: #582A7C;
+  color: #05579e;
 }
 
 .icon-boxes .description {
