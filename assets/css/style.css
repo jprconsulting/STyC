@@ -304,7 +304,7 @@ h6 {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #FFFFC5;
+  background: #582a7c;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
   border-radius: 8px;
@@ -319,7 +319,7 @@ h6 {
   font-size: 14px;
   font-weight: 500;
   text-transform: none;
-  color: #032e54;
+  color: #FFFF;
 }
 
 .navbar .dropdown ul a i {
