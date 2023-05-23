@@ -56,6 +56,9 @@ h6 {
   font-size: 28px;
   color: #fff;
   line-height: 0;
+  border-color: #582A7C;
+  border-width: 1px;
+  border-style: solid;
 }
 .back-to-top:hover i {
   font-size: 28px;
