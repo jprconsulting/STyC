@@ -9,6 +9,7 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -32,6 +33,7 @@ h5,
 h6 {
   font-family: "Raleway", sans-serif;
 }
+
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -623,22 +625,26 @@ section {
 }
 
 .icon-boxes .icon-box {
-  padding: 40px 30px;
+  padding: 0px 15px;
   position: relative;
   overflow: hidden;
-  background: #fff;
-  box-shadow: 5px 10px 29px 0 rgba(68, 88, 144, 0.2);
+  background: rgba(255, 255, 255, 0.52);
+  box-shadow: 5px 5px 10px  rgba(88, 42, 124, 1);
   transition: all 0.3s ease-in-out;
+  border: rgba(88, 42, 124, 0.35);
+  border-width: 2px;
+  border-style: solid;
   border-radius: 10px;
 }
 
 .icon-boxes .icon {
-  margin: 0 auto 20px auto;
+  margin: 10px auto 5px auto;
   display: inline-block;
   text-align: center;
 }
 
 .icon-boxes .icon i {
+  display: flex;
   font-size: 36px;
   line-height: 1;
   color: #f6b024;
@@ -646,7 +652,7 @@ section {
 
 .icon-boxes .title {
   font-weight: 700;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   font-size: 18px;
 }
 
@@ -655,10 +661,10 @@ section {
 }
 
 .icon-boxes .description {
-  font-size: 15px;
-  line-height: 28px;
-  margin-bottom: 0;
-  color: #777777;
+  font-size: var(--bs-body-font-size);
+  line-height: 20px;
+  margin-bottom: 10;
+  color: #000000;
 }
 
 /*--------------------------------------------------------------
