@@ -925,7 +925,7 @@ section {
 }
 
 .why-us .accordion-list a.collapsed:hover {
-  color: #0880e8;
+  color: #f6b024;
 }
 
 .why-us .accordion-list a.collapsed .icon-show {
@@ -1181,7 +1181,7 @@ section {
   bottom: -50px;
   z-index: 3;
   transition: all ease-in-out 0.3s;
-  background: #0880e8;
+  background: rgba(255,131, 0, 0.52);
   padding: 15px 20px;
 }
 
@@ -1558,7 +1558,7 @@ section {
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #0880e8;
+  color: #f6b024;
 }
 
 .faq .faq-list a.collapsed .icon-show {
