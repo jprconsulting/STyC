@@ -388,6 +388,7 @@ h6 {
 }
 
 .navbar-mobile {
+
   position: fixed;
   overflow: hidden;
   top: 0;
@@ -782,11 +783,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #0880e8;
+  border: 1px solid #d1b786;
 }
 
 .clients .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #0880e8;
+  background-color: #00bfd5;
 }
 
 .clients .owl-item {
@@ -1361,7 +1362,7 @@ section {
   width: 32px;
   height: 32px;
   background: #ecf6fe;
-  color: #0665b7;
+  color: #FF8300;
 }
 
 .team .member .social a i {
@@ -1370,7 +1371,7 @@ section {
 }
 
 .team .member .social a:hover {
-  background: #0880e8;
+  background: #00BFD5;
   color: #fff;
 }
 
@@ -2457,3 +2458,4 @@ section {
 .text-justify{
   text-align: justify;
 }
+
