@@ -683,6 +683,7 @@ section {
   padding: 160px 0;
   background: url("../img/mapaTlaxcala.png") top center no-repeat;
   position: relative;
+  background-size:cover ;
 }
 
 .about:before {
