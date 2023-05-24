@@ -50,6 +50,9 @@ h6 {
   height: 40px;
   border-radius: 50px;
   transition: all 0.4s;
+  border-color: #fff;
+  border-width: 1px;
+  border-style: solid;
 }
 
 .back-to-top i {
