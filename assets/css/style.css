@@ -2266,8 +2266,8 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-   background: rgba(88, 42, 124, 0.9);
-  padding-top: -80px;
+   background: url("../../assets/img/morado.png");
+  padding-top: 30px;
   color: #fff;
   font-size: 14px;
 }
@@ -2349,7 +2349,7 @@ section {
 }
 
 #footer .footer-top .social-links a {
-  font-size: 16px;
+  font-size: 20px;
   display: inline-block;
   background-image: url("../../assets/img/morado.png");
   color: #fff;
@@ -2358,10 +2358,12 @@ section {
   margin-right: 4px;
   border-radius: 50%;
   text-align: center;
-  width: 36px;
-  height: 36px;
+  width: 60px;
+  height: 60px;
   transition: 0.3s;
 }
+
+
 
 #footer .footer-top .social-links a:hover {
   background: #f6b024;
