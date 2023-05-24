@@ -680,7 +680,7 @@ section {
 # About Us
 --------------------------------------------------------------*/
 .about {
-  padding: 140px 0;
+  padding: 160px 0;
   background: url("../img/mapaTlaxcala.png") top center no-repeat;
   position: relative;
 }
@@ -1317,7 +1317,7 @@ section {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
-  color: #05579e;
+  color: #582A7C;
 }
 
 .team .member span {
@@ -1334,7 +1334,7 @@ section {
   display: block;
   width: 50px;
   height: 1px;
-  background: #bfe0fd;
+  background: #f6b024;
   bottom: 0;
   left: 0;
 }
@@ -1597,7 +1597,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  background: #0880e8;
+  background: #582A7C;
   color: #fff;
   float: left;
   width: 44px;
@@ -1608,7 +1608,21 @@ section {
   border-radius: 50px;
   transition: all 0.3s ease-in-out;
 }
-
+.contact .info i:hover {
+  font-size: 20px;
+  background: #ffffff;
+  color: #582A7C;
+  float: left;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  border-width: 1px;
+  border-style: solid;
+  transition: all 0.3s ease-in-out;
+}
 .contact .info h4 {
   padding: 0 0 0 60px;
   font-size: 20px;
@@ -1697,15 +1711,15 @@ section {
 .contact .php-email-form button[type=submit] {
   border: 0;
   padding: 10px 32px;
-  color: #0880e8;
+  color: #582A7C;
   transition: 0.4s;
   border-radius: 50px;
-  border: 2px solid #0880e8;
+  border: 2px solid #f6b024;
   background: #fff;
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #0880e8;
+  background: #582A7C;
   color: #fff;
 }
 
