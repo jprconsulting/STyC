@@ -332,7 +332,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #0880e8;
+  color: #000000;
 }
 
 .navbar .dropdown:hover>ul {
@@ -938,7 +938,7 @@ section {
 .why-us .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#0880e8 50%, rgba(8, 128, 232, 0.4) 52%);
+  background: radial-gradient(#00BFD5 50%, rgba(0, 191, 213, 0.4) 52%);
   border-radius: 50%;
   display: block;
   position: absolute;
