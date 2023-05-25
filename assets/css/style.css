@@ -1100,21 +1100,21 @@ section {
 --------------------------------------------------------------*/
 
 .cta {
-    background: url("../img/STyC/newback.png") fixed center center;
+    background: url("../img/STyC/newsback.png") fixed center center;
     background-size: cover;
     opacity: .8;
-    padding: 120px 0;
+    padding: 100px;
 }
 
 .cta h1 {
     color: #000;
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 1000;
 }
 
 .cta p {
     color: #000000;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 1000;
 }
 
