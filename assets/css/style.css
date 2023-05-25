@@ -10,13 +10,14 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
 @font-face {
-  font-family:sofiaprobold;
-  src: url(Sofia-Pro-Bold.ttf);
+    font-family: sofiaprobold;
+    src: url(Sofia-Pro-Bold.ttf);
 }
 
 body {
-    font-family:sofia-pro-bold;
+    font-family: sofia-pro-bold;
     color: #000;
 }
 
@@ -36,7 +37,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family:sofiaprobold;
+    font-family: sofiaprobold;
 }
 
 
@@ -1123,7 +1124,7 @@ section {
 }
 
 .cta .cta-btn {
-    font-family:sofiaprobold;
+    font-family: sofiaprobold;
     text-transform: uppercase;
     font-weight: 1000;
     font-size: 25px;
@@ -1446,7 +1447,7 @@ section {
     font-size: 36px;
     color: #0880e8;
     font-weight: 600;
-    font-family:sofiaprobold;
+    font-family: sofiaprobold;
     margin-bottom: 20px;
 }
 
@@ -2432,7 +2433,7 @@ section {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:sofiaprobold;
+    font-family: sofiaprobold;
 }
 
 
