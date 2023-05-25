@@ -10,14 +10,13 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-
 @font-face {
-    font-family: sofiaprobold;
-    src: url(Sofia-Pro-Bold.ttf);
+  font-family:sofiaprobold;
+  src: url(Sofia-Pro-Bold.ttf);
 }
 
 body {
-    font-family: sofia-pro-bold;
+    font-family:sofia-pro-bold;
     color: #000;
 }
 
@@ -37,7 +36,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: sofiaprobold;
+    font-family:sofiaprobold;
 }
 
 
@@ -46,20 +45,20 @@ h6 {
 --------------------------------------------------------------*/
 
 .back-to-top {
-  position: fixed;
-  visibility: hidden;
-  opacity: 0;
-  right: 15px;
-  bottom: 15px;
-  z-index: 996;
-  background: #582A7C;
-  width: 40px;
-  height: 40px;
-  border-radius: 50px;
-  transition: all 0.4s;
-  border-color: #fff;
-  border-width: 1px;
-  border-style: solid;
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 15px;
+    bottom: 15px;
+    z-index: 996;
+    background: #582A7C;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    transition: all 0.4s;
+    border-color: #fff;
+    border-width: 1px;
+    border-style: solid;
 }
 
 .back-to-top i {
@@ -335,11 +334,11 @@ h6 {
 }
 
 .navbar .dropdown ul a {
-  padding: 10px 20px;
-  font-size: 14px;
-  font-weight: 500;
-  text-transform: none;
-  color: #000;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: none;
+    color: #FFFF;
 }
 
 .navbar .dropdown ul a i {
@@ -349,7 +348,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #000000;
+    color: #000000;
 }
 
 .navbar .dropdown:hover>ul {
@@ -408,16 +407,15 @@ h6 {
 }
 
 .navbar-mobile {
-
-  position: fixed;
-  overflow: hidden;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  background: rgba(88, 42, 124, 0.9);
-  transition: 0.3s;
-  z-index: 999;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(88, 42, 124, 0.9);
+    transition: 0.3s;
+    z-index: 999;
 }
 
 .navbar-mobile .mobile-nav-toggle {
@@ -446,9 +444,9 @@ h6 {
 
 .navbar-mobile a,
 .navbar-mobile a:focus {
-  padding: 10px 20px;
-  font-size: 15px;
-  color: #000000;
+    padding: 10px 20px;
+    font-size: 15px;
+    color: #000000;
 }
 
 .navbar-mobile a:hover:before,
@@ -460,7 +458,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #582A7C;
+    color: #f6b024;
 }
 
 .navbar-mobile .getstarted,
@@ -707,10 +705,10 @@ section {
 --------------------------------------------------------------*/
 
 .about {
-  padding: 160px 0;
-  background: url("../img/mapaTlaxcala.png") top center no-repeat;
-  position: relative;
-  background-size:cover ;
+    padding: 160px 0;
+    background: url("../img/mapaTlaxcala.png") top center no-repeat;
+    position: relative;
+    background-size: cover;
 }
 
 .about:before {
@@ -807,15 +805,15 @@ section {
 }
 
 .clients .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: #fff;
-  opacity: 1;
-  border: 1px solid #d1b786;
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    opacity: 1;
+    border: 1px solid #d1b786;
 }
 
 .clients .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #00bfd5;
+    background-color: #00bfd5;
 }
 
 .clients .owl-item {
@@ -963,15 +961,15 @@ section {
 }
 
 .why-us .play-btn {
-  width: 94px;
-  height: 94px;
-  background: radial-gradient(#00BFD5 50%, rgba(0, 191, 213, 0.4) 52%);
-  border-radius: 50%;
-  display: block;
-  position: absolute;
-  left: calc(50% - 47px);
-  top: calc(50% - 47px);
-  overflow: hidden;
+    width: 94px;
+    height: 94px;
+    background: radial-gradient(#00BFD5 50%, rgba(0, 191, 213, 0.4) 52%);
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    left: calc(50% - 47px);
+    top: calc(50% - 47px);
+    overflow: hidden;
 }
 
 .why-us .play-btn::after {
@@ -1125,7 +1123,7 @@ section {
 }
 
 .cta .cta-btn {
-    font-family: sofiaprobold;
+    font-family:sofiaprobold;
     text-transform: uppercase;
     font-weight: 1000;
     font-size: 25px;
@@ -1356,10 +1354,10 @@ section {
 }
 
 .team .member h4 {
-  font-weight: 700;
-  margin-bottom: 5px;
-  font-size: 20px;
-  color: #582A7C;
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #582A7C;
 }
 
 .team .member span {
@@ -1371,14 +1369,14 @@ section {
 }
 
 .team .member span::after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 50px;
-  height: 1px;
-  background: #f6b024;
-  bottom: 0;
-  left: 0;
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 1px;
+    background: #f6b024;
+    bottom: 0;
+    left: 0;
 }
 
 .team .member p {
@@ -1394,15 +1392,15 @@ section {
 }
 
 .team .member .social a {
-  transition: ease-in-out 0.3s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50px;
-  width: 32px;
-  height: 32px;
-  background: #ecf6fe;
-  color: #FF8300;
+    transition: ease-in-out 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    width: 32px;
+    height: 32px;
+    background: #ecf6fe;
+    color: #FF8300;
 }
 
 .team .member .social a i {
@@ -1411,8 +1409,8 @@ section {
 }
 
 .team .member .social a:hover {
-  background: #00BFD5;
-  color: #fff;
+    background: #00BFD5;
+    color: #fff;
 }
 
 .team .member .social a+a {
@@ -1448,7 +1446,7 @@ section {
     font-size: 36px;
     color: #0880e8;
     font-weight: 600;
-    font-family: sofiaprobold;
+    font-family:sofiaprobold;
     margin-bottom: 20px;
 }
 
@@ -1644,33 +1642,35 @@ section {
 }
 
 .contact .info i {
-  font-size: 20px;
-  background: #582A7C;
-  color: #fff;
-  float: left;
-  width: 44px;
-  height: 44px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50px;
-  transition: all 0.3s ease-in-out;
+    font-size: 20px;
+    background: #582A7C;
+    color: #fff;
+    float: left;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
 }
+
 .contact .info i:hover {
-  font-size: 20px;
-  background: #ffffff;
-  color: #582A7C;
-  float: left;
-  width: 44px;
-  height: 44px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50px;
-  border-width: 1px;
-  border-style: solid;
-  transition: all 0.3s ease-in-out;
+    font-size: 20px;
+    background: #ffffff;
+    color: #582A7C;
+    float: left;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border-width: 1px;
+    border-style: solid;
+    transition: all 0.3s ease-in-out;
 }
+
 .contact .info h4 {
     padding: 0 0 0 60px;
     font-size: 20px;
@@ -1757,18 +1757,18 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  border: 0;
-  padding: 10px 32px;
-  color: #582A7C;
-  transition: 0.4s;
-  border-radius: 50px;
-  border: 2px solid #f6b024;
-  background: #fff;
+    border: 0;
+    padding: 10px 32px;
+    color: #582A7C;
+    transition: 0.4s;
+    border-radius: 50px;
+    border: 2px solid #f6b024;
+    background: #fff;
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #582A7C;
-  color: #fff;
+    background: #582A7C;
+    color: #fff;
 }
 
 @keyframes animate-loading {
@@ -2231,30 +2231,6 @@ section {
 .blog .sidebar .search-form form button i {
     line-height: 0;
 }
-.buttons {
-  min-width: 100px;
-  display: flex;
-  justify-content: space-around;
-}
-
-.buttons a {
-  text-decoration: none;
-  font-size: 28px;
-  width: 60px;
-  height: 60px;
-  line-height: 60px;
-  text-align: center;
-  background: #314652;
-  color: #f1f1f1;
-  border-radius: 50%;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
-  transition: all .4s ease-in-out;
-}
-
-.buttons a:hover {
-  transform: scale(1.2);
-}
-
 
 .blog .sidebar .search-form form button:hover {
     background: #f8c255;
@@ -2456,7 +2432,7 @@ section {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sofiaprobold;
+    font-family:sofiaprobold;
 }
 
 
