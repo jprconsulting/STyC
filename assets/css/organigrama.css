@@ -24,7 +24,9 @@
     font-family: "Inter", sans-serif;
   }
   
-
+.boxx{
+    padding-top: 50%;
+}
   
   .rectangle {
     position: relative;
