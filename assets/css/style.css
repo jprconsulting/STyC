@@ -1123,24 +1123,32 @@ section {
     font-weight: 1000;
 }
 
-.cta .cta-btn {
-    font-family: sofiaprobold;
-    text-transform: uppercase;
-    font-weight: 1000;
-    font-size: 25px;
-    letter-spacing: 0.5px;
+.cta-btn {
     display: inline-block;
-    padding: 8px 26px;
-    border-radius: 2px;
-    transition: 0.5s;
-    margin: 10px;
-    border-radius: 50px;
-    border: 2px solid #F6B024;
-    color: #000000
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #582A7C;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #582A7C;
+    transition: all 0.3s ease;
 }
 
-.cta .cta-btn:hover {
-    background: #582A7C;
+.cta-btn:hover {
+    background-color: #fff;
+    color: #0880e8;
+    border: 2px solid #0880e8;
+    box-shadow: 5px 5px 0px #0880e8;
+}
+
+.cta-btn:active {
+    background-color: #fcf414;
+    box-shadow: none;
+    transform: translateY(4px);
 }
 
 @media (max-width: 1024px) {
