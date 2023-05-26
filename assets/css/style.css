@@ -2604,7 +2604,7 @@ section {
     text-align: justify;
 }
 
-.cont{
+.cont {
     padding: 30px;
     text-align: center;
     position: relative;
@@ -2612,10 +2612,9 @@ section {
     width: 75%;
 }
 
-.img{
+.img {
     width: 100px;
 }
-
 
 .contact2 {
     position: relative;
@@ -2630,7 +2629,6 @@ section {
     left: 0;
     right: 0;
 }
-
 
 .contact2 .container {
     position: relative;
@@ -2657,7 +2655,6 @@ section {
 }
 
 .contact2 .info i:hover {
-
     font-size: 20px;
     background: #582A7C;
     color: #fff;
@@ -2679,7 +2676,6 @@ section {
     margin-bottom: 20px;
     padding-bottom: 0;
     color: #ffffff;
-    
 }
 
 .contact2 .info h5 {
@@ -2690,7 +2686,6 @@ section {
     margin-bottom: 20px;
     padding-bottom: 0;
     color: #ffffff;
-    
 }
 
 .contact2 .info h4 {
