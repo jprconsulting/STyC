@@ -2448,6 +2448,7 @@ section {
 /*:::::Pie de Pagina*/
 
 .pie-pagina {
+    padding-top: 3%;
     width: 100%;
     background: url("/assets/img/morado.png");
 }
