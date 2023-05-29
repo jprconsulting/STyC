@@ -10,13 +10,14 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
 @font-face {
-  font-family:sofiaprobold;
-  src: url(Sofia-Pro-Bold.ttf);
+    font-family: sofiaprobold;
+    src: url(font/SofiaProRegular.ttf);
 }
 
 body {
-    font-family:sofia-pro-bold;
+    font-family: sofia-pro-bold;
     color: #000;
 }
 
@@ -36,7 +37,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family:sofiaprobold;
+    font-family: sofiaprobold;
 }
 
 
@@ -45,20 +46,20 @@ h6 {
 --------------------------------------------------------------*/
 
 .back-to-top {
-  position: fixed;
-  visibility: hidden;
-  opacity: 0;
-  right: 15px;
-  bottom: 15px;
-  z-index: 996;
-  background: #582A7C;
-  width: 40px;
-  height: 40px;
-  border-radius: 50px;
-  transition: all 0.4s;
-  border-color: #fff;
-  border-width: 1px;
-  border-style: solid;
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 15px;
+    bottom: 15px;
+    z-index: 996;
+    background: #582A7C;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    transition: all 0.4s;
+    border-color: #fff;
+    border-width: 1px;
+    border-style: solid;
 }
 
 .back-to-top i {
@@ -107,7 +108,7 @@ h6 {
     position: fixed;
     top: calc(50% - 30px);
     left: calc(50% - 30px);
-    border: 6px solid #0880e8;
+    border: 6px solid #582A7C;
     border-top-color: #bfe0fd;
     border-radius: 50%;
     width: 60px;
@@ -223,7 +224,9 @@ h6 {
     color: #fff;
 }
 
-#header .logo img {}
+#header .logo img {
+    padding: 0;
+}
 
 .header-inner-pages {
     background: rgba(5, 87, 158, 0.9) !important;
@@ -334,11 +337,11 @@ h6 {
 }
 
 .navbar .dropdown ul a {
-  padding: 10px 20px;
-  font-size: 14px;
-  font-weight: 500;
-  text-transform: none;
-  color: #000;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: none;
+    color: #FFFF;
 }
 
 .navbar .dropdown ul a i {
@@ -348,7 +351,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #000000;
+    color: #000000;
 }
 
 .navbar .dropdown:hover>ul {
@@ -407,16 +410,15 @@ h6 {
 }
 
 .navbar-mobile {
-
-  position: fixed;
-  overflow: hidden;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  background: rgba(88, 42, 124, 0.9);
-  transition: 0.3s;
-  z-index: 999;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(88, 42, 124, 0.9);
+    transition: 0.3s;
+    z-index: 999;
 }
 
 .navbar-mobile .mobile-nav-toggle {
@@ -445,9 +447,9 @@ h6 {
 
 .navbar-mobile a,
 .navbar-mobile a:focus {
-  padding: 10px 20px;
-  font-size: 15px;
-  color: #000000;
+    padding: 10px 20px;
+    font-size: 15px;
+    color: #000000;
 }
 
 .navbar-mobile a:hover:before,
@@ -459,7 +461,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #582A7C;
+    color: #f6b024;
 }
 
 .navbar-mobile .getstarted,
@@ -619,7 +621,7 @@ h6 {
 --------------------------------------------------------------*/
 
 section {
-    padding: 60px 0;
+    padding: 40px 0;
     overflow: hidden;
 }
 
@@ -706,10 +708,10 @@ section {
 --------------------------------------------------------------*/
 
 .about {
-  padding: 160px 0;
-  background: url("../img/mapaTlaxcala.png") top center no-repeat;
-  position: relative;
-  background-size:cover ;
+    padding: 240px 0;
+    background: url("../img/mapaTlaxcala.png") top center no-repeat;
+    position: relative;
+    background-size: cover;
 }
 
 .about:before {
@@ -806,15 +808,15 @@ section {
 }
 
 .clients .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: #fff;
-  opacity: 1;
-  border: 1px solid #d1b786;
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    opacity: 1;
+    border: 1px solid #d1b786;
 }
 
 .clients .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #00bfd5;
+    background-color: #00bfd5;
 }
 
 .clients .owl-item {
@@ -962,15 +964,15 @@ section {
 }
 
 .why-us .play-btn {
-  width: 94px;
-  height: 94px;
-  background: radial-gradient(#00BFD5 50%, rgba(0, 191, 213, 0.4) 52%);
-  border-radius: 50%;
-  display: block;
-  position: absolute;
-  left: calc(50% - 47px);
-  top: calc(50% - 47px);
-  overflow: hidden;
+    width: 94px;
+    height: 94px;
+    background: radial-gradient(#00BFD5 50%, rgba(0, 191, 213, 0.4) 52%);
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    left: calc(50% - 47px);
+    top: calc(50% - 47px);
+    overflow: hidden;
 }
 
 .why-us .play-btn::after {
@@ -1112,7 +1114,7 @@ section {
 }
 
 .cta h1 {
-    color: #000;
+    color: #582A7C;
     font-size: 60px;
     font-weight: 1000;
 }
@@ -1123,24 +1125,32 @@ section {
     font-weight: 1000;
 }
 
-.cta .cta-btn {
-    font-family:sofiaprobold;
-    text-transform: uppercase;
-    font-weight: 1000;
-    font-size: 25px;
-    letter-spacing: 0.5px;
+.cta-btn {
     display: inline-block;
-    padding: 8px 26px;
-    border-radius: 2px;
-    transition: 0.5s;
-    margin: 10px;
-    border-radius: 50px;
-    border: 2px solid #582A7C;
-    color: #000000
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #582A7C;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #582A7C;
+    transition: all 0.3s ease;
 }
 
-.cta .cta-btn:hover {
-    background: #f4f3f1;
+.cta-btn:hover {
+    background-color: #fff;
+    color: #0880e8;
+    border: 2px solid #0880e8;
+    box-shadow: 5px 5px 0px #0880e8;
+}
+
+.cta-btn:active {
+    background-color: #fcf414;
+    box-shadow: none;
+    transform: translateY(4px);
 }
 
 @media (max-width: 1024px) {
@@ -1186,7 +1196,7 @@ section {
 .portfoio #portfolio-flters li:hover,
 .portfoio #portfolio-flters li.filter-active {
     color: #fff;
-    background: #0880e8;
+    background: #582a7c;
 }
 
 .portfoio #portfolio-flters li:last-child {
@@ -1355,10 +1365,10 @@ section {
 }
 
 .team .member h4 {
-  font-weight: 700;
-  margin-bottom: 5px;
-  font-size: 20px;
-  color: #582A7C;
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #582A7C;
 }
 
 .team .member span {
@@ -1370,14 +1380,14 @@ section {
 }
 
 .team .member span::after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 50px;
-  height: 1px;
-  background: #f6b024;
-  bottom: 0;
-  left: 0;
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 1px;
+    background: #f6b024;
+    bottom: 0;
+    left: 0;
 }
 
 .team .member p {
@@ -1393,15 +1403,15 @@ section {
 }
 
 .team .member .social a {
-  transition: ease-in-out 0.3s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50px;
-  width: 32px;
-  height: 32px;
-  background: #ecf6fe;
-  color: #FF8300;
+    transition: ease-in-out 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    width: 32px;
+    height: 32px;
+    background: #ecf6fe;
+    color: #FF8300;
 }
 
 .team .member .social a i {
@@ -1410,8 +1420,8 @@ section {
 }
 
 .team .member .social a:hover {
-  background: #00BFD5;
-  color: #fff;
+    background: #00BFD5;
+    color: #fff;
 }
 
 .team .member .social a+a {
@@ -1447,7 +1457,7 @@ section {
     font-size: 36px;
     color: #0880e8;
     font-weight: 600;
-    font-family:sofiaprobold;
+    font-family: sofiaprobold;
     margin-bottom: 20px;
 }
 
@@ -1643,33 +1653,35 @@ section {
 }
 
 .contact .info i {
-  font-size: 20px;
-  background: #582A7C;
-  color: #fff;
-  float: left;
-  width: 44px;
-  height: 44px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50px;
-  transition: all 0.3s ease-in-out;
+    font-size: 20px;
+    background: #582A7C;
+    color: #fff;
+    float: left;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
 }
+
 .contact .info i:hover {
-  font-size: 20px;
-  background: #ffffff;
-  color: #582A7C;
-  float: left;
-  width: 44px;
-  height: 44px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50px;
-  border-width: 1px;
-  border-style: solid;
-  transition: all 0.3s ease-in-out;
+    font-size: 20px;
+    background: #ffffff;
+    color: #582A7C;
+    float: left;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border-width: 1px;
+    border-style: solid;
+    transition: all 0.3s ease-in-out;
 }
+
 .contact .info h4 {
     padding: 0 0 0 60px;
     font-size: 20px;
@@ -1756,18 +1768,18 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  border: 0;
-  padding: 10px 32px;
-  color: #582A7C;
-  transition: 0.4s;
-  border-radius: 50px;
-  border: 2px solid #f6b024;
-  background: #fff;
+    border: 0;
+    padding: 10px 32px;
+    color: #582A7C;
+    transition: 0.4s;
+    border-radius: 50px;
+    border: 2px solid #f6b024;
+    background: #fff;
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #582A7C;
-  color: #fff;
+    background: #582A7C;
+    color: #fff;
 }
 
 @keyframes animate-loading {
@@ -2230,30 +2242,6 @@ section {
 .blog .sidebar .search-form form button i {
     line-height: 0;
 }
-.buttons {
-  min-width: 100px;
-  display: flex;
-  justify-content: space-around;
-}
-
-.buttons a {
-  text-decoration: none;
-  font-size: 28px;
-  width: 60px;
-  height: 60px;
-  line-height: 60px;
-  text-align: center;
-  background: #314652;
-  color: #f1f1f1;
-  border-radius: 50%;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
-  transition: all .4s ease-in-out;
-}
-
-.buttons a:hover {
-  transform: scale(1.2);
-}
-
 
 .blog .sidebar .search-form form button:hover {
     background: #f8c255;
@@ -2455,13 +2443,14 @@ section {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:sofiaprobold;
+    font-family: sofiaprobold;
 }
 
 
 /*:::::Pie de Pagina*/
 
 .pie-pagina {
+    padding-top: 0%;
     width: 100%;
     background: url("/assets/img/morado.png");
 }
@@ -2473,7 +2462,7 @@ section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 50px;
-    padding: 45px 0px;
+    padding: 25px 0px;
 }
 
 .pie-pagina .grupo-1 .box figure {
@@ -2615,4 +2604,192 @@ section {
 
 .text-justify {
     text-align: justify;
+}
+
+.cont {
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    width: 75%;
+}
+
+.img {
+    width: 100px;
+}
+
+.contact2 {
+    position: relative;
+}
+
+.contact2:before {
+    content: "";
+    background: rgba(255, 255, 255, 0.0);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.contact2 .container {
+    position: relative;
+}
+
+.contact2 .info {
+    width: 100%;
+}
+
+.contact2 .info i {
+    font-size: 18px;
+    background: #ffffff;
+    color: #582A7C;
+    float: left;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border-width: 1px;
+    border-style: solid;
+    transition: all 0.3s ease-in-out;
+}
+
+.contact2 .info i:hover {
+    font-size: 20px;
+    background: #582A7C;
+    color: #fff;
+    float: left;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+.contact2 .info h2 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    color: #ffffff;
+}
+
+.contact2 .info h5 {
+    text-align: left;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    color: #ffffff;
+}
+
+.contact2 .info h4 {
+    padding: 0 0 0 60px;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+.contact2 .info p {
+    padding: 0 0 0 60px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.contact2 .info .email,
+.contact .info .phone {
+    margin-top: 40px;
+}
+
+.contact2 .php-email-form {
+    width: 100%;
+    background: #fff;
+}
+
+.contact2 .php-email-form .form-group {
+    padding-bottom: 8px;
+}
+
+.contact2 .php-email-form .error-message {
+    display: none;
+    color: #fff;
+    background: #ed3c0d;
+    text-align: left;
+    padding: 15px;
+    font-weight: 600;
+}
+
+.contact2 .php-email-form .error-message br+br {
+    margin-top: 25px;
+}
+
+.contact2 .php-email-form .sent-message {
+    display: none;
+    color: #fff;
+    background: #18d26e;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+}
+
+.contact2 .php-email-form .loading {
+    display: none;
+    background: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+.contact2 .php-email-form .loading:before {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px -6px 0;
+    border: 3px solid #18d26e;
+    border-top-color: #eee;
+    animation: animate-loading 1s linear infinite;
+}
+
+.contact2 .php-email-form input,
+.contact2 .php-email-form textarea {
+    border-radius: 4px;
+    box-shadow: none;
+    font-size: 14px;
+}
+
+.contact2 .php-email-form input {
+    height: 44px;
+}
+
+.contact2 .php-email-form textarea {
+    padding: 10px 12px;
+}
+
+.contact2 .php-email-form button[type=submit] {
+    border: 0;
+    padding: 10px 32px;
+    color: #582A7C;
+    transition: 0.4s;
+    border-radius: 50px;
+    border: 2px solid #f6b024;
+    background: #fff;
+}
+
+.contact2 .php-email-form button[type=submit]:hover {
+    background: #582A7C;
+    color: #fff;
+}
+
+.boxx {
+    padding-top: 15%;
 }
