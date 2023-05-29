@@ -1,10 +1,10 @@
 /* RESET STYLES & HELPER CLASSES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 :root {
-    --level-1: #8dccad;
-    --level-2: #f5cc7f;
-    --level-3: #7b9fe0;
-    --level-4: #f27c8d;
+    --level-1: #77bc1f;
+    --level-2: #FF8300;
+    --level-3: #00bfd5;
+    --level-4: #9e1F63;
     --black: black;
   }
   
@@ -31,7 +31,7 @@
   .rectangle {
     position: relative;
     padding: 10px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
   }
   
   
@@ -50,7 +50,7 @@
     left: 50%;
     transform: translateX(-50%);
     width: 2px;
-    height: 20px;
+    height: 22px;
     background: var(--black);
   }
   
@@ -67,8 +67,8 @@
     content: "";
     position: absolute;
     top: -20px;
-    left: 25%;
-    width: 50%;
+    left: 27%;
+    width: 48.5%;
     height: 2px;
     background: var(--black);
   }
@@ -143,9 +143,9 @@
   .level-3-wrapper::before {
     content: "";
     position: absolute;
-    top: -20px;
-    left: calc(25% - 5px);
-    width: calc(50% + 10px);
+    top: -22px;
+    left: calc(29.1% - 5px);
+    width: calc(47.5% + 10px);
     height: 2px;
     background: var(--black);
   }
