@@ -224,7 +224,9 @@ h6 {
     color: #fff;
 }
 
-#header .logo img {}
+#header .logo img {
+    padding: 0;
+}
 
 .header-inner-pages {
     background: rgba(5, 87, 158, 0.9) !important;
@@ -2789,5 +2791,5 @@ section {
 }
 
 .boxx {
-    padding-top: 10%;
+    padding-top: 15%;
 }
