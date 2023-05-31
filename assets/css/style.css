@@ -508,7 +508,9 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-
+.w-65{
+    width: 65%;
+}
 #hero {
     width: 100%;
     height: 80vh;
@@ -524,10 +526,10 @@ h6 {
 
 #hero:before {
     content: "";
-    background: rgba(255, 255, 255, 0.75);
+    background: rgba(255, 255, 255, 0.65);
     position: absolute;
     bottom: 0;
-    top: 0;
+    top: 00;
     left: 0;
     right: 0;
 }
@@ -2881,7 +2883,7 @@ section {
   }
 
   .carousel-container{
-    padding-top: 8%;
+
     color: #FFFF;
   }
   .carouselFont h2{
