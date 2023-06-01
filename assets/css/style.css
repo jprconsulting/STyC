@@ -508,8 +508,11 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+.nohover{
+    pointer-events: none;
+}
 .w-65{
-    width: 65%;
+    width: 60%;
 }
 #hero {
     width: 100%;
@@ -535,6 +538,7 @@ h6 {
 }
 
 #hero .carousel-container {
+    padding-top: 17%;
     display: flex;
     justify-content: center;
     align-items: center;
