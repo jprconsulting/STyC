@@ -522,7 +522,7 @@ h6 {
     height: 80vh;
     overflow: hidden;
     position: relative;
-    background: url("../img/STyC/Backgrounds/BackDorado.png") top center;
+    background: url("../img/STyC/Backgrounds/BackDorado.webp") top center;
     background-size: cover;
     position: relative;
     margin-bottom: -90px;
@@ -1121,7 +1121,7 @@ section {
 --------------------------------------------------------------*/
 
 .cta {
-    background: url("../img/STyC/Backgrounds/newsback.png") fixed center center;
+    background: url("../img/STyC/Backgrounds/newsback.webp") fixed center center;
     background-size: cover;
     opacity: .8;
     padding: 100px;
